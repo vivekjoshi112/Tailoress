@@ -1,0 +1,30 @@
+.card-image{
+    width: 100%;
+    height: 100%;
+}
+.card-image-inside{
+    width: 70%;
+    height: 90%;
+    border-radius:50%;
+    
+}
+.card-header{
+    background-color: transparent;
+}
+
+.card-style{
+    background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 400px) {
+  .card-image-inside{
+    width: 100%;
+    height: 100%;
+    border-radius:20%;
+    
+}
+.card-header{
+    font-size: 13px;
+    font-weight: bold;
+}
+}
